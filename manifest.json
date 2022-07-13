@@ -1,0 +1,14 @@
+{
+  "name": "Amazon Canonical URL",
+  "description": "Copy the canonical URL of any Amazon product",
+  "version": "1.0",
+  "author": "Boris Yakubchik",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab","scripting"],
+  "action": { 
+    "default_title": "Click to copy Amazon URL to clipboard"
+  }
+}
